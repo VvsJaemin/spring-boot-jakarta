@@ -20,6 +20,7 @@ public class EnvironmentCheck {
         String url = env.getProperty("url");
         String username = env.getProperty("username");
         String password = env.getProperty("password");
+        String new2 = env.getProperty("new2");
         log.info("env url={}", url);
         log.info("env username={}", username);
         log.info("env password={}", password);
